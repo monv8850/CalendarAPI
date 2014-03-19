@@ -49,7 +49,7 @@ namespace CalendarEvents
 
 
             config.Routes.MapHttpRoute(
-             name: "CreateEntry",
+             name: "DeleteEntry",
              routeTemplate: "api/Calendar/Entry/Delete/id",
              defaults: new { controller = "Calendar", action = "Delete" }
             );
