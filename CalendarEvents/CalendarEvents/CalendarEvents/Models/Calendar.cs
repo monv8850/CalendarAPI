@@ -8,7 +8,7 @@ namespace CalendarEvents.Models
         public List<Entry> Entries { get; set; }
         public Calendar()
         {
-         
+			Entries = new List<Entry>();
         }
     }
 }
