@@ -46,13 +46,6 @@ namespace CalendarEvents
              routeTemplate: "api/Calendar/Entry/Create",
              defaults: new { controller="Calendar", action="Create"}
             );
-
-
-            config.Routes.MapHttpRoute(
-             name: "DeleteEntry",
-             routeTemplate: "api/Calendar/Delete",
-             defaults: new { controller = "Calendar", action = "Delete" }
-            );
         }
     }
 }
