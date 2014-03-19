@@ -53,6 +53,8 @@ namespace CalendarEvents.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, entry);
         }
 
+		[System.Web.Http.HttpPost]
+
         public HttpResponseMessage Delete(int id)
         {
             Entry entry=null ;
