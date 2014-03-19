@@ -7,10 +7,12 @@ namespace CalendarEvents.Models
 {
     public class Entry
     {
-		public static int ID {get;set;}
+		public static int IDTracker {get;set;}
+		public int ID{get;set;}
+		
 		public Entry()
 		{
-			++ID;
+			ID = ++IDTracker;
 		}
         public DateTime? StartTime { get; set; }
         public DateTime? EndTime { get; set; }
